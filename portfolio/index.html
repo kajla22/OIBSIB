@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/163694ae0f.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="main">
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi I'm <span>Abhinav</span><br> Kajla</h1>
+                </div>
+                <div class="image">
+                    <img src="assets/WhatsApp_Image_2024-02-22_at_18.47.21_674261f6-removebg-preview.png"
+                        height="1000px" width="1000px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="assets/logo.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My name is Abhinav kajla and I am persuing M.C.A from K.I.E.T college
+                        and I have completed my B.Sc from Gurukul Kangri University situated in Haridwar.</p>
+                        <p>I am a hard working, honest individual. I am a good timekeeper, 
+                            always willing to learn new skills. I am friendly, helpful and polite,
+                            have a good sense of humour. I am able to work independently in busy 
+                            environments and also within a team setting. I am outgoing and tactful,
+                            and able to listen effectively when solving problems.</p>
+                            <p>I am a punctual and motivated individual who is able to work in a busy environment 
+                                and produce high standards of work. I am an excellent team worker 
+                                and am able to take instructions from all levels and build up good 
+                                working relationships with all colleagues. I am flexible, reliable 
+                                and possess excellent time keeping skills.
+                            </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <!-------<p class="tab-links" onclick="opentab('Experience')">Experience</p>---->
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>JavaScript</span><br></li>
+                            <li><span>Bootstrap</span><br></li>
+                            <li><span>C language</span><br></li>
+                            <li><span>C++</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>JAVA</span><br></li>
+                        </ul>
+                    </div>
+                  <!----------  <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>1.UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>-->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023-ongoing</span><br>MCA from KIET Group of Institution</li>
+                            <li><span>2020-2023</span><br>BSc from Gurukul Kangri University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error tempora officia optio, quia eum
+                        vel, corporis harum temporibus dolorum hic placeat iure numquam aut dolore, consequatur mollitia
+                        veritatis omnis nulla?
+                    </p>
+                    <a href="#">Learn more></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error tempora officia optio, quia eum
+                        vel, corporis harum temporibus dolorum hic placeat iure numquam aut dolore, consequatur mollitia
+                        veritatis omnis nulla?
+                    </p>
+                    <a href="#">Learn more></a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error tempora officia optio, quia eum
+                        vel, corporis harum temporibus dolorum hic placeat iure numquam aut dolore, consequatur mollitia
+                        veritatis omnis nulla?
+                    </p>
+                    <a href="#">Learn more></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/logo.png" alt="Project 1 Image" />
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app connects you to the talented<br> people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="assets/logo.png" alt="Project 2 Image" />
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>The app connects you to the talented <br>people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/amazon.png" id="img3" alt="Project 3 Image" />
+                    <div class="layer">
+                        <h3>Amazon Shopping Clone</h3>
+                        <p>A landing page of amazon Shopping website</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="kajlabhinav@gmail.com">kajlabhinav@gmail.com</a>
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i>7830339114</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/abhinav.kajla.161"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/kajlabhinav"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/jaat.abhinav.kajla/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/चौधरी-अभिनव-काजला-369a66287"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets/resume_new.pdf" download="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" method="post">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            // Get the element with a class name equal to the passed argument
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
