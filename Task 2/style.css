@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstpara {
+    width: 100%;
+    height: 220px;
+    background-image: url(/imagesvpn/homepage-pingzhu-hero-bg-opt-v2.avif);
+    background-repeat: no-repeat;
+    background-size: 500px 220px;
+    background-position: center;
+}
+
+.logo-img img {
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eng select {
+    border: none;
+    font-size: 8px;
+    background: none;
+}
+
+.Vpn {
+    font-size: 35px;
+    text-align: center;
+}
+
+.go {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.firstpara button {
+    font-size: 6px;
+    padding: 5px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(7, 83, 7);
+    color: white;
+    margin-left: 220px;
+}
+
+.pair-img img {
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 7px;
+}
+
+.day {
+    font-size: 7px;
+    text-align: center;
+    margin: 10px;
+}
+
+.security img {
+    width: 120px;
+
+}
+
+.content {
+    width: 300px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.content p {
+    font-size: 7px;
+}
+
+.content button {
+    font-size: 6px;
+    padding: 5px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(7, 83, 7);
+    color: white;
+
+}
+
+.space {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.secpara {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.parathird {
+    display: flex;
+}
+
+.content2 {
+    width: 300px;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 70px;
+
+}
+
+.content2 p {
+    font-size: 7px
+}
+
+.img2 img {
+    width: 110px;
+}
+
+.img2 {
+    margin-right: 80px;
+}
+
+.img3 img {
+    width: 110px;
+}
+
+.img3 {
+    margin-left: 10px
+}
+
+.size {
+    width: 20px;
+    /* background-color: grey; */
+}
+
+.content3 a {
+    font-size: 10px;
+    color: rgb(7, 83, 7);
+}
+
+.content3 button {
+    font-size: 6px;
+    padding: 5px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(7, 83, 7);
+    color: white;
+}
+
+.content3 p {
+    font-size: 7px;
+}
+
+.content3 {
+    margin-left: 100px;
+}
+
+.fourthpara {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.firstbox img {
+    width: 150px;
+}
+
+.firstbox p {
+    font-size: 7px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.firstbox h6 {
+    margin-left: 40px;
+}
+
+.fifthpara {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.sixthpara {
+    margin-top: 50px;
+    width: 100vw;
+    height: 300px;
+
+    /* display: flex; */
+}
+
+.sixthpara {
+    /* border: 2px solid red; */
+    background-image: url(/imagesvpn/stock-vector-abstract-world-map-of-dots-vector-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.number h2 {
+    margin-top: 20px;
+}
+
+.number p {
+    font-size: 7px;
+}
+
+.number {
+    margin-left: 430px;
+    margin-top: 40px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.spara {
+    font-size: 7px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sixthpara a {
+    color: rgb(7, 83, 7);
+}
+
+.advantage {
+    font-size: 7px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.advantage a {
+    color: rgb(7, 83, 7);
+}
