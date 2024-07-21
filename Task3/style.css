@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f8f9fa;
+}
+.main{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    background-color: #023047;
+    color: #ffff;
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container form p{
+    margin-top: 10px;
+    width: 30vw;
+    margin-left: 60px;
+}
+.container #submit{
+    margin-top: 10px;
+}
+#temp_diff{
+    width: 20vw;
+    height: 8vh;   
+}
+#temp{
+    width: 20vw;
+    height: 7vh;
+}
+#submit{
+    margin-left: 70px;
+    width: 15vw;
+}
